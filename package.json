@@ -1,0 +1,19 @@
+{
+  "name": "proyect-node-crud",
+  "version": "0.0.1",
+  "description": "Haremos un crud con NodeJS y MongoDB",
+  "main": "src/app.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon src/app.js",
+    "start": "node src/app.js"
+  },
+  "author": "Moises Israel Navarro Mendoza",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "mongoose": "^8.3.2"
+  }
+}
